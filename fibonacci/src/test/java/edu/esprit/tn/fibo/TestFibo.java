@@ -19,5 +19,10 @@ public class TestFibo {
 	public void itShouldReturn1when2entred() {
 		assertEquals(1, fibonacci.process(2));
 	}
+	
+	@Test
+	public void itShouldReturn2when3entred() {
+		assertEquals(2, fibonacci.process(3));
+	}
 
 }
